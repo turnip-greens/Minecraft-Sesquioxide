@@ -1,0 +1,14 @@
+{
+  "name": "Rust Codespace",
+  "image": "://microsoft.com",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer",
+        "vadimcn.vscode-lldb",
+        "serayuzgur.crates"
+      ]
+    }
+  },
+  "postCreateCommand": "rustc --version && cargo --version"
+}
